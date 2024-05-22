@@ -1,0 +1,22 @@
+{
+  
+  "name": "integracion",
+  "version": "1.0.0",
+  "main": "uploader.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+
+"dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "mongoose": "^8.4.0",
+    "socket.io": "^4.7.5",
+    "y": "^0.3.2"
+  }}

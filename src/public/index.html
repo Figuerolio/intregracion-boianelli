@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpLoad</title>
+</head>
+<body>
+    <h1>Up load</h1>
+
+    <form action="/api/products" method="post" enctype="multipart/form-data">
+        Title: <input type="text" name="Title"><br />
+        description: <input type="text" name="description"><br />
+        Price: <input type="number" name="price"><br />
+        Thubmnail: <input type="file" name="thumbnail" multiple><br />
+
+        <button type="submit">Up Load</button>
+    </form>
+</body>
+</html>

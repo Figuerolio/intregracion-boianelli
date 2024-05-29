@@ -4,8 +4,12 @@ import config from '../config.js';
 
 const router = Router();
 
-router.get('/view1', (req, res) => {
-    res.render('view1', { data: data });
+router.get('/chat')
+
+
+router.get('/products', (req, res) => {
+    const data=[];
+    res.render('products', { data: data });
 });
 
-export default router;
+export default viewsRouter;

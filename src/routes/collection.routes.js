@@ -1,12 +1,13 @@
 import { Router } from 'express';
 
 import config from '../config.js';
-import collectionModel from '../dao/models/collection.model.js';
+import productModel from '../dao/models/product.model.js';
 
 const router = Router();
 
 router.get('/', async (req, res) => {
     try {
+
         res.status(200).send({ origin: config.SERVER, payload: 'GET' });
     } catch (err) {
         res.status(500).send({ origin: config.SERVER, payload: null, error: err.message });
